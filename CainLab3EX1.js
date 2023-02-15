@@ -7,13 +7,13 @@ function setup() {
 function draw() {
   background(100, 220, 95);
 
-  drawAbstract()
+  drawAbstract(200,200)
  
          
 }
-function drawAbstract(){
+function drawAbstract(translateX,translateY){
  if (mouseX > 100) {
-    translate(100, 150);
+    translate(translateX, translateY);
  
   } else {fill(90, 10, 45);}
   noStroke();
