@@ -7,7 +7,12 @@ function setup() {
 function draw() {
   background(100, 220, 95);
 
-  if (mouseX > 100) {
+  drawAbstract()
+ 
+         
+}
+function drawAbstract(){
+ if (mouseX > 100) {
     translate(100, 150);
  
   } else {fill(90, 10, 45);}
@@ -20,5 +25,4 @@ function draw() {
   strokeWeight(10);
   arc(40, 65, 100, 100, 270, 90);
   pop()
-         
 }
